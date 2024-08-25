@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    font-size: 62.5%;
+    /*background-color: #414270;*/
+    /*transições na prtezinha branca do home*/
+    }
+
+header{
+    /*arrumar isso aqui dps*/
+    position: fixed;
+    top: 0; left: 0%; right: 0%;
+    background: #faf6f6;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem #f5b4f2;
+}
+header .logo{
+    font-size: 3rem;
+    color: #b94f7b;
+    font-weight: bold;
+}
+
+header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: #000;
+    /*corzinha nos itens*/
+}
+header .navbar a:hover{
+    color: #b94f7b;
+    /*muda a cor quando passa o cursor texto*/
+}
+header .icons a{
+    /*coisa os icones de favoritio, carrinho...*/
+    font-size: 2.5rem;
+    color: rgb(0, 15, 15);
+    margin-left: 1.5rem;
+}
+header .icons a:hover{
+    color: #b94f7b;
+}
+section {
+    min-height: 100vh; /* Define a altura mínima da seção */
+    padding: 4rem 16rem;  /*Adiciona um espaçamento interno */
+  }
+  
+  .home {
+    display: flex; /* Faz com que os elementos fiquem em linha */
+    align-items: center; /* Alinha os elementos no centro no eixo vertical */
+    justify-content: center; /* Alinha os elementos no centro no eixo horizontal */
+    gap: 16rem; /* Adiciona um espaçamento entre os elementos */
+  }
+  .home-content {
+    display: flex; /* Faz com que os elementos fiquem em linha */
+    flex-direction: column; /* Alinha os elementos em coluna */
+    align-items: baseline; /* Alinha os elementos na base */
+    text-align: left; /* Alinha o texto à esquerda */
+    justify-content: center; /* Alinha os elementos no centro no eixo horizontal */
+  }
+  
+  
+  .home-content p {
+    color: #b94f7b;
+    margin-top: 1rem; /* Adiciona uma margem na parte superior */
+    margin-bottom: 2rem; /* Adiciona uma margem na parte inferior */
+    font-size: 15px; /* Define o tamanho da fonte equivalente a 56px */
+  }
+  
+  .home-content h1 {
+    color: #b94f7b;
+    font-size: 5rem; /* Define o tamanho da fonte equivalente a 112px */
+    font-weight: 700; /* Define o peso da fonte */
+    margin-top: 1.5rem; /* Adiciona uma margem na parte superior */
+    line-height: 1; /* Define a altura da linha */
+  }
+  
+  .home-img {
+    border-radius: 50%; /* Adiciona um raio nas bordas */
+  }
+  
+  .home-img img {
+    margin-top: 90px;
+    top: 2rem; /* Define a distância do topo */
+    width: 450px;
+    height: 450px; /* Define a largura do elemento equivalente a 32% da largura da tela */
+    border-radius: 50%; /* Adiciona um raio nas bordas */
+    box-shadow: 0 0 20px violet; /* Adiciona uma sombra */
+    cursor: pointer; /* Adiciona um cursor de ponteiro */
+    transition: 0.4s ease-in-out; /* Adiciona uma transição suave */
+  }
+  
+  .home-img img:hover {
+    box-shadow: 0 0 20px violet, 0 0 40px violet,
+      0 0 60px violet; /* Adiciona uma sombra */
+  }
+  
+  .sobre {
+    display: flex; /* Faz com que os elementos fiquem em linha */
+    align-items: center; /* Alinha os elementos no centro no eixo vertical */
+    justify-content: center; /* Alinha os elementos no centro no eixo horizontal */
+    gap: 16rem; /* Adiciona um espaçamento entre os elementos */
+  }
+  .sobre-content {
+    display: flex; /* Faz com que os elementos fiquem em linha */
+    flex-direction: column; /* Alinha os elementos em coluna */
+    align-items: baseline; /* Alinha os elementos na base */
+    text-align: left; /* Alinha o texto à esquerda */
+    justify-content: center; /* Alinha os elementos no centro no eixo horizontal */
+  }
+  
+  
+  .sobre-content p {
+    color: #b94f7b;
+    margin-top: 1rem; /* Adiciona uma margem na parte superior */
+    margin-bottom: 2rem; /* Adiciona uma margem na parte inferior */
+    font-size: 15px; /* Define o tamanho da fonte equivalente a 56px */
+  }
+  
+  .sobre-content h1 {
+    color: #b94f7b;
+    font-size: 35px; /* Define o tamanho da fonte equivalente a 112px */
+    font-weight: 700; /* Define o peso da fonte */
+    margin-top: 1.5rem; /* Adiciona uma margem na parte superior */
+    line-height: 1; /* Define a altura da linha */
+  }
+  
+  .sobre-img img {
+    margin-top: 80px;
+    top: 2rem; /* Define a distância do topo */
+    width: 450px;
+    height: 450px; /* Define a largura do elemento equivalente a 32% da largura da tela */
+    box-shadow: 0 0 20px violet; /* Adiciona uma sombra */
+    cursor: pointer; /* Adiciona um cursor de ponteiro */
+    transition: 0.4s ease-in-out; /* Adiciona uma transição suave */
+  }
+  
+  .home-img img:hover {
+    box-shadow: 0 0 20px violet, 0 0 40px violet,
+      0 0 60px violet; /* Adiciona uma sombra */
+  }
+
+.home{
+    padding: 0;
+    margin: 100px;
+}
+
+.contact {
+    background-color: #faf6f6;
+    color: red;
+    padding-left: 40rem;
+    padding-right: 40rem;
+    margin-top: 100px;
+  }
+  
+  .contact h2 {
+    margin-bottom: 3rem;
+    color: #b94f7b;
+    font-size: 40px;
+  }
+  
+  .contact form {
+    margin-top: 80px;
+    max-width: 70rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .contact form .input-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .contact form .input-box input,
+  .contact form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    color: blue;
+    background: rgb(253, 222, 244);
+    border-radius: 5px;
+    border: 3px solid #b94f7b;
+    margin: 1rem 0;
+    resize: none;
+  }
+  
+  .contact form .btn {
+    padding: 1rem 8rem;
+    margin-top: 1rem;
+    color: #faecf2;
+    background-color: #b94f7b;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+    
+
+/*h1{
+    color: #b94f7b;
+    font-size: px;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+h2{
+    color: #b94f7b;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+h3{
+    color: #b94f7b;
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+.imagem{
+    
+}
+.main .imagem img {
+    position: relative;
+    width: 545px;
+    height: auto;
+    z-index: 3;
+    padding-top: 15%;
+    margin-left: 1%;
+}
