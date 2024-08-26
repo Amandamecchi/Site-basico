@@ -24,11 +24,11 @@ header{
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    box-shadow: 0 .5rem 1rem #f5b4f2;
+    box-shadow: 0 .5rem 1rem #ee85b1;
 }
 header .logo{
     font-size: 3rem;
-    color: #b94f7b;
+    color: #a3114e;
     font-weight: bold;
 }
 
@@ -39,20 +39,20 @@ header .navbar a{
     /*corzinha nos itens*/
 }
 header .navbar a:hover{
-    color: #b94f7b;
+    color: #a3114e;
     /*muda a cor quando passa o cursor texto*/
 }
 header .icons a{
     /*coisa os icones de favoritio, carrinho...*/
     font-size: 2.5rem;
-    color: rgb(0, 15, 15);
+    color: rgb(56, 12, 56);
     margin-left: 1.5rem;
 }
 header .icons a:hover{
-    color: #b94f7b;
+    color: #a3114e;
 }
 section {
-    min-height: 100vh; /* Define a altura mínima */
+    min-height: 100vh; 
     padding: 4rem 16rem; 
   }
   
@@ -72,14 +72,14 @@ section {
   
   
   .home-content p {
-    color: #b94f7b;
+    color: #cc457d;
     margin-top: 1rem; 
     margin-bottom: 2rem; 
     font-size: 15px; 
   }
   
   .home-content h1 {
-    color: #b94f7b;
+    color: #a3114e;
     font-size: 5rem; 
     font-weight: 700; 
     margin-top: 1.5rem; 
@@ -96,14 +96,14 @@ section {
     width: 450px;
     height: 450px; 
     border-radius: 50%; 
-    box-shadow: 0 0 20px violet; 
+    box-shadow: 0 0 20px #a3114e; 
     cursor: pointer; 
     transition: 0.4s ease-in-out; 
   }
   
   .home-img img:hover {
-    box-shadow: 0 0 20px violet, 0 0 40px violet,
-      0 0 60px violet; 
+    box-shadow: 0 0 20px #a3114e, 0 0 40px #a3114e,
+      0 0 60px #a3114e; 
   }
   
   .sobre {
@@ -122,14 +122,14 @@ section {
   
   
   .sobre-content p {
-    color: #b94f7b;
+    color: #cc457d;
     margin-top: 1rem; 
     margin-bottom: 2rem; 
     font-size: 15px; 
   }
   
   .sobre-content h1 {
-    color: #b94f7b;
+    color: #a3114e;
     font-size: 35px; 
     font-weight: 700; 
     margin-top: 1.5rem; 
@@ -141,14 +141,14 @@ section {
     top: 2rem; 
     width: 450px;
     height: 450px; 
-    box-shadow: 0 0 20px violet; 
+    box-shadow: 0 0 20px #a3114e; 
     cursor: pointer; 
     transition: 0.4s ease-in-out; 
   }
   
   .home-img img:hover {
-    box-shadow: 0 0 20px violet, 0 0 40px violet,
-      0 0 60px violet; 
+    box-shadow: 0 0 20px #a3114e, 0 0 40px #a3114e,
+      0 0 60px #a3114e; 
   }
 
 .home{
@@ -158,7 +158,6 @@ section {
 
 .contact {
     background-color: #faf6f6;
-    color: red;
     padding-left: 40rem;
     padding-right: 40rem;
     margin-top: 100px;
@@ -166,7 +165,7 @@ section {
   
   .contact h2 {
     margin-bottom: 3rem;
-    color: #b94f7b;
+    color: #a3114e;
     font-size: 40px;
   }
   
@@ -189,10 +188,9 @@ section {
     width: 100%;
     padding: 1.5rem;
     font-size: 1.2rem;
-    color: blue;
     background: rgb(253, 222, 244);
     border-radius: 5px;
-    border: 3px solid #b94f7b;
+    border: 3px solid #a3114e;
     margin: 1rem 0;
     resize: none;
   }
@@ -201,7 +199,7 @@ section {
     padding: 1rem 8rem;
     margin-top: 1rem;
     color: #faecf2;
-    background-color: #b94f7b;
+    background-color: #a3114e;
     border-radius: 10px;
     font-size: 16px;
   }
